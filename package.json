@@ -1,0 +1,27 @@
+{
+  "name": "parse-procfile",
+  "version": "0.0.0",
+  "description": "parse procfiles into objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/parse-procfile"
+  },
+  "keywords": [
+    "procfile",
+    "parse",
+    "parser"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/parse-procfile/issues"
+  },
+  "homepage": "https://github.com/binocarlos/parse-procfile",
+  "devDependencies": {
+    "tape": "^2.13.4"
+  }
+}
