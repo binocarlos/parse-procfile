@@ -1,6 +1,7 @@
 var tape = require('tape')
 var fs = require('fs')
 var parse = require('./')
+var path = require('path')
 
 tape('parse the Procfile', function(t){
 	var content = fs.readFileSync(path.join(__dirname, 'test/Procfile'), 'utf8')
