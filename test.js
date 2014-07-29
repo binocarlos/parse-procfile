@@ -16,5 +16,6 @@ tape('parse the Procfile', function(t){
 	var obj = parse(content)
 	t.equal(obj.web, 'node myserver --port 80', 'web')
 	t.equal(obj.db, 'mysql --port 3306', 'db')
+	t.equal(obj.piped, '| mypipe', 'db')
 	t.end()
 })

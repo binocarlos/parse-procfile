@@ -1,2 +1,3 @@
 web: node myserver --port 80
 db: mysql --port 3306
+piped: | mypipe
