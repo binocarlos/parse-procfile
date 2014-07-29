@@ -1,0 +1,3 @@
+web: node myserver --port 80
+sdfsdfsdf
+db: mysql --port 3306
